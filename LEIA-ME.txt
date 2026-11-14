@@ -1,0 +1,5 @@
+Rotas da Salgaderia - como executar
+1) Descompacte e dê duplo clique em index.html (funciona offline, sem servidor).
+2) Opcional (Node): "npm test" roda os algoritmos no terminal; "npm start" abre um servidor local.
+3) Publicar: suba a pasta no GitHub e ative o GitHub Pages.
+Animação: clique em "Iniciar entrega". 1 min simulado = 1 s real (ajustável no seletor de velocidade).

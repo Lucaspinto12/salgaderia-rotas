@@ -1,0 +1,17 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#faf6f0;color:#2b2118}
+header{padding:16px 24px;background:#c2410c;color:#fff}header h1{margin:0;font-size:22px}header p{margin:4px 0 0;font-size:14px;opacity:.9}
+main{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(300px,1fr);gap:16px;padding:16px;max-width:1300px;margin:auto}
+@media(max-width:900px){main{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid #e7ddd0;border-radius:10px;padding:14px;margin-bottom:16px}.card h2{margin:0 0 10px;font-size:15px}
+svg{width:100%;height:auto}.rua{stroke:#c9bfb0;stroke-width:3}.rua.on{stroke:#c2410c;stroke-width:6}
+.peso{font-size:13px;font-weight:600;cursor:pointer;fill:#2b2118;paint-order:stroke;stroke:#fff;stroke-width:4px}
+.no{fill:#fff;stroke:#2b2118;stroke-width:2}.no.loja{fill:#c2410c;stroke:#7c2d12}.no.ativo{fill:#fed7aa}
+.txt{font-size:13px;font-weight:700;text-anchor:middle;pointer-events:none}.badge{fill:#15803d}.bn{font-size:12px;fill:#fff;font-weight:700;text-anchor:middle}
+table{width:100%;border-collapse:collapse;font-size:14px}td{padding:4px}input[type=number]{width:60px}
+.modo{border:2px solid #e7ddd0;border-radius:8px;padding:8px 10px;margin-bottom:8px;cursor:pointer}.modo.sel{border-color:#c2410c;background:#fff7ed}
+.modo b{display:block}.modo small{color:#57534e}.bad{color:#b91c1c;font-weight:600}.good{color:#15803d;font-weight:600}
+ol{padding-left:20px;margin:0 0 10px;font-size:14px}li{margin-bottom:4px}button{padding:6px 12px;border:0;border-radius:6px;background:#c2410c;color:#fff;cursor:pointer}
+.controles{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:10px;font-size:14px}
+#relogio{font-weight:700;color:#c2410c}.nome{font-size:11px;font-weight:600;text-anchor:middle;paint-order:stroke;stroke:#fff;stroke-width:3px;pointer-events:none}
+.ic{font-size:18px;text-anchor:middle;pointer-events:none}.moto{font-size:26px;text-anchor:middle}
+.perc{font-size:13px;margin:0 0 8px;color:#57534e}.trilha{fill:none;stroke:#15803d;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}

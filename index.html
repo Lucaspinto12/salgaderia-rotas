@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rotas da Salgaderia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>🥟 Rotas da Salgaderia</h1><p>Roteirização de motoboy com Teoria dos Grafos (Dijkstra + ordenação de entregas)</p></header>
+<main>
+  <section class="card"><h2>Mapa (clique no peso de uma rua para simular trânsito)</h2><div id="mapa"></div>
+    <div class="controles">
+      <button id="iniciar">▶ Iniciar entrega</button>
+      <label>Velocidade <select id="vel"><option value="0.5">1 min = 2 s (lento)</option><option value="1" selected>1 min = 1 s (normal)</option><option value="2">1 min = 0,5 s (rápido)</option></select></label>
+      <span id="relogio">⏱ 0.0 s</span>
+    </div></section>
+  <aside>
+    <section class="card"><h2>Pedidos (admin)</h2><div id="pedidos"></div></section>
+    <section class="card"><h2>Modo de rota</h2><div id="modos"></div></section>
+    <section class="card"><h2>Rota do motoboy</h2><div id="detalhe"></div><button id="reset">Resetar tudo</button></section>
+  </aside>
+</main>
+<script src="core/mapa.js"></script>
+<script src="core/grafo.js"></script>
+<script src="core/dijkstra.js"></script>
+<script src="core/rotas.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
